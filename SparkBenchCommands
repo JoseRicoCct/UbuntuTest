@@ -1,0 +1,4 @@
+spark-submit --class com.ibm.sparktc.sparkbench.cli.CLI \
+--master spark://192.168.52.96:7077 \
+/home/hduser/spark-bench/target/assembly/spark-bench-launch-2.3.0_0.4.0-RELEASE.jar \ /home/hduser/spark-bench/workloads/kmeans-config.json
+
